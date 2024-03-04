@@ -8,7 +8,7 @@ import {
   PageTitle,
 } from "./styles";
 // import Button from "../../components/Button/Button";
-import Button from "../../components/Button/Button";
+import Button from "components/Button/Button";
 
 function Lesson22() {
   // 1 способ стилизации: черех импорт styles.css файла - то что мы уже и так используем

@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-import Feedback from "../../components/Feedback/Feedback";
+import Feedback from "components/Feedback/Feedback";
 
 import "./styles.css";
 
