@@ -1,7 +1,7 @@
 import { useState, ChangeEvent } from "react";
 
-import Button from "../../components/Button/Button";
-import Input from "../../components/Input/Input";
+import Button from "components/Button/Button";
+import Input from "components/Input/Input";
 
 import { Homework22Wrapper, ButtonsContiner, InputsContainer } from "./styles";
 

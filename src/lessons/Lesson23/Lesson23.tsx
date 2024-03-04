@@ -1,6 +1,6 @@
 import { useState, ChangeEvent } from "react";
 
-import LoginForm from "../../components/LoginForm/LoginForm";
+import LoginForm from "components/LoginForm/LoginForm";
 
 import {
   Lesson23Wrapper,

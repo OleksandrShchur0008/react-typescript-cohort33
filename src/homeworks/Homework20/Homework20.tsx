@@ -1,6 +1,6 @@
 import "./styles.css";
 import { v4 } from "uuid";
-import { JohnImage } from "../../assets";
+import { JohnImage } from "assets";
 
 function Homework20() {
   let firstName: string = "John";
