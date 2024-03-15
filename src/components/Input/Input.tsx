@@ -1,5 +1,10 @@
 import { InputProps } from "./types";
-import { InputContainer, InputComponent, InputLabel } from "./styles";
+import {
+  InputContainer,
+  InputComponent,
+  InputLabel,
+  ErrorContainer,
+} from "./styles";
 
 function Input({
   id,
@@ -10,6 +15,7 @@ function Input({
   type = "text",
   value,
   onChange,
+  error,
 }: InputProps) {
   return (
     <InputContainer>
@@ -23,6 +29,7 @@ function Input({
         placeholder={placeholder}
         type={type}
       />
+      {!!error && <ErrorContainer>{error}</ErrorContainer>}
     </InputContainer>
   );
 }

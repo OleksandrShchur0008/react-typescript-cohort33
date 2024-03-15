@@ -1,5 +1,7 @@
 import styled from "@emotion/styled";
 
+import { colors } from "styles/colors";
+
 export const EmployeeFormWrapper = styled.div`
   display: flex;
   justify-content: space-between;
@@ -37,11 +39,34 @@ export const EmployeeInfoContainer = styled.div`
 
 export const EmployeeTitle = styled.h2`
   font-size: 16px;
-  color: #6f6f6f;
+  color: ${colors.typical};
 `;
 
 export const EmployeeInfoText = styled.h1`
   font-size: 28px;
   font-weight: bold;
   color: black;
+`;
+
+export const CheckboxContainer = styled.div`
+  display: flex;
+  align-items: center;
+  gap: 10px;
+`;
+
+export const CheckboxLabel = styled.label`
+  font-size: 16px;
+  color: ${colors.typical};
+`;
+
+export const Checkbox = styled.input`
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+`;
+
+export const ErrorContainer = styled.div`
+  font-size: 16px;
+  color: red;
+  height: 18px;
 `;
