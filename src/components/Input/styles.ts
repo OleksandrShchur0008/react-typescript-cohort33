@@ -33,3 +33,8 @@ export const InputComponent = styled.input`
       disabled ? "1px solid black" : "1px solid #1f27f5"};
   }
 `;
+
+export const ErrorContainer = styled.div`
+  font-size: 16px;
+  color: red;
+`;

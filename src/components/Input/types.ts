@@ -9,4 +9,5 @@ export interface InputProps {
   type?: string;
   value: string;
   onChange: (event: ChangeEvent<HTMLInputElement>) => void;
+  error?: undefined | string;
 }
