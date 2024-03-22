@@ -16,6 +16,7 @@ import Lesson22 from "lessons/Lesson22/Lesson22";
 import Lesson23 from "lessons/Lesson23/Lesson23";
 import Lesson24 from "lessons/Lesson24/Lesson24";
 import Lesson25 from "lessons/Lesson25/Lesson25";
+import Lesson27 from "lessons/Lesson27/Lesson27";
 // Homeworks
 import Homework20 from "homeworks/Homework20/Homework20";
 import Homework21 from "homeworks/Homework21/Homework21";
@@ -23,12 +24,13 @@ import Homework22 from "homeworks/Homework22/Homework22";
 import Homework23 from "homeworks/Homework23/Homework23";
 import Homework24 from "homeworks/Homework24/Homework24";
 import Homework25 from "homeworks/Homework25/Homework25";
+import Homework27 from "homeworks/Homework27/Homework27";
 
 function App() {
   return (
     <BrowserRouter>
       <GlobalStyles />
-      <Layout>
+      {/* <Layout>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/users" element={<Users />} />
@@ -39,19 +41,21 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="*" element="Page Not Found" />
         </Routes>
-      </Layout>
+      </Layout> */}
       {/* <Lesson20 /> */}
       {/* <Lesson21 /> */}
       {/* <Lesson22 /> */}
       {/* <Lesson23 /> */}
       {/* <Lesson24 /> */}
       {/* <Lesson25 /> */}
+      <Lesson27 />
       {/* <Homework20 /> */}
       {/* <Homework21 /> */}
       {/* <Homework22 /> */}
       {/* <Homework23 /> */}
       {/* <Homework24 /> */}
       {/* <Homework25 /> */}
+      <Homework27 />
     </BrowserRouter>
   );
 }
