@@ -9,6 +9,7 @@ import Clients from "pages/Clients/Clients";
 import AIT from "pages/Clients/components/AIT/AIT";
 import Apple from "pages/Clients/components/Apple/Apple";
 import Youtube from "pages/Clients/components/Youtube/Youtube";
+import Weather from "pages/Weather/Weather";
 // Lessons
 import Lesson20 from "lessons/Lesson20/Lesson20";
 import Lesson21 from "lessons/Lesson21/Lesson21";
@@ -48,14 +49,15 @@ function App() {
       {/* <Lesson23 /> */}
       {/* <Lesson24 /> */}
       {/* <Lesson25 /> */}
-      <Lesson27 />
+      {/* <Lesson27 /> */}
       {/* <Homework20 /> */}
       {/* <Homework21 /> */}
       {/* <Homework22 /> */}
       {/* <Homework23 /> */}
       {/* <Homework24 /> */}
       {/* <Homework25 /> */}
-      <Homework27 />
+      {/* <Homework27 /> */}
+      <Weather/>
     </BrowserRouter>
   );
 }
